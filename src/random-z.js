@@ -22,9 +22,9 @@ function randomZ() {
 		u = Math.random() * 2 - 1
 		v = Math.random() * 2 - 1
 		s = u*u + v*v
-	} while (s===0 || s>=1)
+	} while ( s===0 || s>=1 )
 
-	s = Math.sqrt(-2*Math.log(s)/s)
+	s = Math.sqrt( -2*Math.log(s) / s )
 	spareValue = u*s
 
 	return v*s
