@@ -1,0 +1,14 @@
+x @structure index.js, /src, /srv, /bld, /css, /htm
+x (A) @git init
+x (B) @npm outdated
+x (B) @npm ls --depth=0
+x @package.json +project title
+x @package.json scripts
+x @package.json repository | git
+x @npmignore /test | test/js
+x @readme.md what, example, why, how, test
+
+
+
+
+

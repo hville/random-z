@@ -1,5 +1,6 @@
 .git/
 .settings/
+.vscode/
 coverage/
 html-report/
 node_modules/

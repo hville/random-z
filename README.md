@@ -16,7 +16,7 @@ The additional independent random sample is cashed for the next call.
 
 ## Installation
 
-In node, from the root of your project folder type `npm install --save random-z`.
+In node, from the root of the project folder type `npm install --save random-z`.
 
 
 ## Usage
@@ -24,14 +24,15 @@ In node, from the root of your project folder type `npm install --save random-z`
 The function takes no parameters and returns a random number.
 
 ```
-	var randomZ = require('random-z')
-	var newRandomSample = randomZ()
+  var randomZ = require('random-z')
+  var newRandomSample = randomZ()
 ```
 
 
 ## Test
 
-In node, from the root of your project folder type `npm test`.
+In node, from the root folder type `npm test`.
+(test is not included with the package and must be obtained from the git repository)
 
 
 ## License
