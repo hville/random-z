@@ -1,33 +1,29 @@
 {
-  "name": "random-z",
-  "version": "0.1.4",
-  "description": "random number generator for the unit normal distribution",
-  "author": "Hugo Villeneuve",
-  "license": "MIT",
-  "keywords": [
-    "random",
-    "stats",
-    "statistics",
-    "sample",
-    "distribution",
-    "normal",
-    "gaussian"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hville/random-z"
-  },
-  "main": "./src/random-z.js",
-  "dependencies": {},
-  "devDependencies": {
-    "tt": "1.0.3",
-    "untap": "0.0.4"
-  },
-  "engines": {
-    "node": ">= 0.10.0",
-    "npm": "2.x"
-  },
-  "scripts": {
-    "test": "node test | untap"
-  }
+	"name": "random-z",
+	"version": "0.1.5",
+	"description": "random number generator for the unit normal distribution",
+	"author": "Hugo Villeneuve",
+	"license": "MIT",
+	"keywords": [
+		"random",
+		"stats",
+		"statistics",
+		"sample",
+		"distribution",
+		"normal",
+		"gaussian"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hville/random-z"
+	},
+	"main": "./src/random-z.js",
+	"dependencies": {},
+	"devDependencies": {
+		"tt": "1.0.3",
+		"untap": "0.0.4"
+	},
+	"scripts": {
+		"test": "node test | untap"
+	}
 }
