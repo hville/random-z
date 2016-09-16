@@ -1,5 +1,3 @@
-'use strict'
-
 // cached extra result
 var spareValue = NaN
 

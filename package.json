@@ -1,6 +1,6 @@
 {
 	"name": "random-z",
-	"version": "0.1.5",
+	"version": "1.0.0",
 	"description": "random number generator for the unit normal distribution",
 	"author": "Hugo Villeneuve",
 	"license": "MIT",
@@ -20,10 +20,12 @@
 	"main": "./src/random-z.js",
 	"dependencies": {},
 	"devDependencies": {
-		"tt": "1.0.3",
-		"untap": "0.0.4"
+		"cotest": "^1.0.1"
 	},
 	"scripts": {
 		"test": "node test | untap"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
 	}
 }
