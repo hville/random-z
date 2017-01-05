@@ -1,6 +1,6 @@
 # normal-z
 
-• [Introduction](#Introduction) • [Installation](#installation) • [Usage](#usage) • [Test](#test) • [License](#license) •
+• [Introduction](#introduction) • [Installation](#installation) • [Usage](#usage) • [Test](#test) • [License](#license) •
 
 ## Introduction
 
@@ -24,12 +24,7 @@ var randomZ = require('random-z')
 var newRandomSample = randomZ()
 ```
 
-## Test
-
-In node, from the root folder type `npm test`.
-(test is not included with the package and must be obtained from the git repository)
-
 
 ## License
 
-Released under the [MIT License](http://www.opensource.org/licenses/MIT)
+[MIT](http://www.opensource.org/licenses/MIT) © [Hugo Villeneuve](https://github.com/hville)
