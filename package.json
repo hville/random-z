@@ -4,6 +4,9 @@
 	"description": "random number generator for the unit normal distribution",
 	"author": "Hugo Villeneuve",
 	"license": "MIT",
+	"main": "./index.js",
+	"module": "./module.js",
+	"browser": "./browser.js",
 	"keywords": [
 		"random",
 		"stats",
@@ -18,13 +21,16 @@
 		"type": "git",
 		"url": "https://github.com/hville/random-z"
 	},
-	"main": "./random-z.js",
 	"dependencies": {},
 	"devDependencies": {
-		"cotest": "^1.0.1"
+		"cotest": "^2.1.1"
 	},
 	"scripts": {
-		"test": "node test"
+		"test": "npm run build:main & node test",
+		"build:main": "rollup -o ./index.js -f cjs --banner \"/* hugov@runbox.com | https://github.com/hville/random-z.git | license:MIT */\" ./module.js",
+		"build:browser": "rollup -o ./browser.js -f iife -n random-z --banner \"/* hugov@runbox.com | https://github.com/hville/random-z.git | license:MIT */\" ./module.js",
+		"build": "npm run build:main & npm run build:browser",
+		"prepublishOnly": "npm test & npm run build:browser"
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org/"

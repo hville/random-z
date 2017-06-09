@@ -1,6 +1,6 @@
 'use strict'
 var c = require('cotest')
-var randomZ = require('./random-z.js')
+var randomZ = require('./')
 
 var N = 10000
 var sum = 0
