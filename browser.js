@@ -1,4 +1,5 @@
 /* hugov@runbox.com | https://github.com/hville/random-z.git | license:MIT */
+var random-z = (function () {
 'use strict';
 
 // cached extra result
@@ -31,4 +32,6 @@ function randomZ() {
 	return v * s
 }
 
-module.exports = randomZ;
+return randomZ;
+
+}());

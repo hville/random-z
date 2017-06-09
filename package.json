@@ -1,6 +1,6 @@
 {
 	"name": "random-z",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "random number generator for the unit normal distribution",
 	"author": "Hugo Villeneuve",
 	"license": "MIT",
