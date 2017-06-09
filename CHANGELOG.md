@@ -8,7 +8,7 @@
 ## [Unreleased]
 ~~Removed, Changed, Deprecated, Added, Fixed, Security~~
 
-## [1.1.0] - 2017-06-09
+## [1.1.1] - 2017-06-09
 ### Added
 - ES6 module and browser version
 

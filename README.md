@@ -18,12 +18,17 @@ In node, from the root of the project folder type `npm install --save random-z`.
 ## Usage
 
 The function takes no parameters and returns a random number.
+Available in `cjs` (require), `es6` (import) or `browser` (script) formats
 
 ```javascript
 var randomZ = require('random-z')
 var newRandomSample = randomZ()
 ```
 
+```javascript
+import {randomZ} from 'random-z'
+var newRandomSample = randomZ()
+```
 
 ## License
 
