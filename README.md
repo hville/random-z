@@ -25,11 +25,6 @@ var randomZ = require('random-z')
 var newRandomSample = randomZ()
 ```
 
-```javascript
-import {randomZ} from 'random-z'
-var newRandomSample = randomZ()
-```
-
 ## License
 
 [MIT](http://www.opensource.org/licenses/MIT) © [Hugo Villeneuve](https://github.com/hville)

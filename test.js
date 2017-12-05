@@ -2,7 +2,7 @@
 var c = require('cotest')
 var randomZ = require('./')
 
-var N = 10000
+var N = 20000
 var sum = 0
 var sum2 = 0
 for (var i = 0; i < N; ++i) {

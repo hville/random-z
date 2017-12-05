@@ -8,6 +8,12 @@
 ## [Unreleased]
 ~~Removed, Changed, Deprecated, Added, Fixed, Security~~
 
+## [2.0.0] - 2017-12-05
+### Added
+- More type annotations
+### Removed
+- ES6 module and browser version
+
 ## [1.1.1] - 2017-06-09
 ### Added
 - ES6 module and browser version
