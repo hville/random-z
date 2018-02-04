@@ -1,4 +1,6 @@
-# normal-z
+# random-z
+
+*random number generator following the normal standard distribution*
 
 • [Introduction](#introduction) • [Installation](#installation) • [Usage](#usage) • [Test](#test) • [License](#license) •
 
