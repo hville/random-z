@@ -1,6 +1,9 @@
 {
-	"name": "random-z",
-	"version": "1.0.0",
+  "name": "random-z",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+	"version": "2.0.1",
 	"description": "random number generator for the unit normal distribution",
 	"author": "Hugo Villeneuve",
 	"license": "MIT",
@@ -13,20 +16,17 @@
 		"normal",
 		"gaussian"
 	],
-	"private": false,
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hville/random-z"
 	},
-	"main": "./random-z.js",
 	"dependencies": {},
 	"devDependencies": {
-		"cotest": "^1.0.1"
+		"@types/node": "^9.4.0",
+		"assert-op": "^0.5.1"
 	},
 	"scripts": {
-		"test": "node test"
-	},
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
+		"test": "node test.js",
+		"prepublishOnly": "npm test"
 	}
 }

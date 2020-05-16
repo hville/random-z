@@ -1,6 +1,8 @@
-# normal-z
+# random-z
 
-• [Introduction](#Introduction) • [Installation](#installation) • [Usage](#usage) • [Test](#test) • [License](#license) •
+*random number generator following the normal standard distribution*
+
+• [Introduction](#introduction) • [Installation](#installation) • [Usage](#usage) • [Test](#test) • [License](#license) •
 
 ## Introduction
 
@@ -10,26 +12,15 @@ The random number generator uses the
 [Marsaglia polar method](http://en.wikipedia.org/wiki/Normal_distribution#Generating_values_from_normal_distribution).
 The additional independent random sample is cashed for the next call.
 
-## Installation
-
-In node, from the root of the project folder type `npm install --save random-z`.
-
-
 ## Usage
 
 The function takes no parameters and returns a random number.
 
 ```javascript
-var randomZ = require('random-z')
-var newRandomSample = randomZ()
+import Z from 'random-z'
+var newRandomSample = Z()
 ```
-
-## Test
-
-In node, from the root folder type `npm test`.
-(test is not included with the package and must be obtained from the git repository)
-
 
 ## License
 
-Released under the [MIT License](http://www.opensource.org/licenses/MIT)
+[MIT](http://www.opensource.org/licenses/MIT) © [Hugo Villeneuve](https://github.com/hville)
