@@ -15,6 +15,7 @@ The additional independent random sample is cashed for the next call.
 ## Usage
 
 The function takes no parameters and returns a random number.
+Available in `cjs` (require), `es6` (import) or `browser` (script) formats
 
 ```javascript
 import Z from 'random-z'

@@ -8,10 +8,6 @@
 ## [Unreleased]
 ~~Removed, Changed, Deprecated, Added, Fixed, Security~~
 
-## [3.0.0] - 2020-05-16
-### Changed
-- All and only ESM module
-
 ## [2.0.0] - 2017-12-05
 ### Added
 - More type annotations
